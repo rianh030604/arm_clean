@@ -1,0 +1,1 @@
+/home/hoan/colcon_ws/build/open_manipulator/ament_cmake_environment_hooks/local_setup.zsh

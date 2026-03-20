@@ -1,0 +1,78 @@
+[0.030s] Invoking command in '/home/hoan/colcon_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/hoan/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hoan/colcon_ws/install/dynamixel_sdk_examples
+[0.175s] -- The C compiler identification is GNU 11.4.0
+[0.379s] -- The CXX compiler identification is GNU 11.4.0
+[0.403s] -- Detecting C compiler ABI info
+[0.649s] -- Detecting C compiler ABI info - done
+[0.676s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.676s] -- Detecting C compile features
+[0.682s] -- Detecting C compile features - done
+[0.695s] -- Detecting CXX compiler ABI info
+[0.980s] -- Detecting CXX compiler ABI info - done
+[1.008s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.014s] -- Detecting CXX compile features
+[1.015s] -- Detecting CXX compile features - done
+[1.026s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.681s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.839s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.910s] -- Found dynamixel_sdk: 4.0.3 (/home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.919s] -- Found dynamixel_sdk_custom_interfaces: 4.0.3 (/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[2.026s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.044s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.059s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.088s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.187s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.272s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.279s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.488s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.540s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.661s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.678s] -- Looking for pthread.h
+[2.923s] -- Looking for pthread.h - found
+[2.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.191s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.195s] -- Found Threads: TRUE  
+[3.350s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[3.361s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.723s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.729s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.730s] -- Configured cppcheck include dirs: /home/hoan/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[3.730s] -- Configured cppcheck exclude dirs and/or files: 
+[3.735s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.736s] -- Configured cpplint exclude dirs and/or files: 
+[3.736s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.737s] -- Added test 'lint_cmake' to check CMake code style
+[3.739s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.741s] -- Added test 'uncrustify' to check C / C++ code style
+[3.741s] -- Configured uncrustify additional arguments: 
+[3.743s] -- Added test 'xmllint' to check XML markup files
+[3.750s] -- Configuring done
+[3.774s] -- Generating done
+[3.787s] -- Build files have been written to: /home/hoan/colcon_ws/build/dynamixel_sdk_examples
+[3.811s] Invoked command in '/home/hoan/colcon_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/hoan/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hoan/colcon_ws/install/dynamixel_sdk_examples
+[3.818s] Invoking command in '/home/hoan/colcon_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hoan/colcon_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[3.968s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[20.715s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[21.240s] [100%] Built target read_write_node
+[21.252s] Invoked command in '/home/hoan/colcon_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hoan/colcon_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[21.254s] Invoking command in '/home/hoan/colcon_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/hoan/colcon_ws/build/dynamixel_sdk_examples
+[21.261s] -- Install configuration: ""
+[21.261s] -- Execute custom install script
+[21.262s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[21.271s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[21.281s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[21.290s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[21.301s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[21.311s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[21.321s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[21.329s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[21.338s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[21.347s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[21.357s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[21.366s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[21.375s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[21.383s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[21.392s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[21.402s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[21.412s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[21.424s] Invoked command in '/home/hoan/colcon_ws/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/hoan/colcon_ws/build/dynamixel_sdk_examples

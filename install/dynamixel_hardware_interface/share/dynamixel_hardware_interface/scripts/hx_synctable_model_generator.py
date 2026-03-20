@@ -1,0 +1,1 @@
+/home/hoan/colcon_ws/src/dynamixel_hardware_interface/scripts/hx_synctable_model_generator.py

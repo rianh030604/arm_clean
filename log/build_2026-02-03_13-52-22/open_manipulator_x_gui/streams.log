@@ -1,0 +1,35 @@
+[0.157s] Invoking command in '/home/hoan/colcon_ws/build/open_manipulator_x_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --build /home/hoan/colcon_ws/build/open_manipulator_x_gui -- -j8 -l8
+[0.615s] [ 15%] Built target copy_ui_header
+[0.737s] [ 23%] [34m[1mAutomatic MOC and UIC for target open_manipulator_x_gui_node[0m
+[0.783s] [ 23%] Built target open_manipulator_x_gui_node_autogen
+[0.942s] [100%] Built target open_manipulator_x_gui_node
+[0.999s] Invoked command in '/home/hoan/colcon_ws/build/open_manipulator_x_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --build /home/hoan/colcon_ws/build/open_manipulator_x_gui -- -j8 -l8
+[1.001s] Invoking command in '/home/hoan/colcon_ws/build/open_manipulator_x_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --install /home/hoan/colcon_ws/build/open_manipulator_x_gui
+[1.047s] -- Install configuration: ""
+[1.060s] -- Execute custom install script
+[1.060s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/lib/open_manipulator_x_gui/open_manipulator_x_gui_node
+[1.060s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp
+[1.060s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp
+[1.060s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/launch/open_manipulator_x_gui.launch.py
+[1.060s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/ui/main_window.ui
+[1.060s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/config/robot_joint_log.csv
+[1.060s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/library_path.sh
+[1.061s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/library_path.dsv
+[1.065s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_gui
+[1.065s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_gui
+[1.074s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/ament_prefix_path.sh
+[1.074s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/ament_prefix_path.dsv
+[1.074s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/path.sh
+[1.074s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/path.dsv
+[1.075s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.bash
+[1.075s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.sh
+[1.075s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.zsh
+[1.086s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.dsv
+[1.086s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/package.dsv
+[1.108s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/ament_index/resource_index/packages/open_manipulator_x_gui
+[1.108s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.108s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/ament_cmake_export_libraries-extras.cmake
+[1.108s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/open_manipulator_x_guiConfig.cmake
+[1.109s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/open_manipulator_x_guiConfig-version.cmake
+[1.109s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/package.xml
+[1.117s] Invoked command in '/home/hoan/colcon_ws/build/open_manipulator_x_gui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --install /home/hoan/colcon_ws/build/open_manipulator_x_gui

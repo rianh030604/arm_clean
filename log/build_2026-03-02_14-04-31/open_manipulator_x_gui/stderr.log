@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/open_manipulator_x_gui_node_autogen.dir/build.make:86: CMakeFiles/open_manipulator_x_gui_node_autogen.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/open_manipulator_x_gui_node_autogen.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

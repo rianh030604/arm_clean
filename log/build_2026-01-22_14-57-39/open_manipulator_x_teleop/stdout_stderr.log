@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target open_manipulator_x_teleop[0m
+[100%] Built target open_manipulator_x_teleop
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/lib/open_manipulator_x_teleop/open_manipulator_x_teleop
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_teleop
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_teleop
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/path.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/environment/path.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.bash
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.zsh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/local_setup.dsv
+-- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/ament_index/resource_index/packages/open_manipulator_x_teleop
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/cmake/open_manipulator_x_teleopConfig.cmake
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/cmake/open_manipulator_x_teleopConfig-version.cmake
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_teleop/share/open_manipulator_x_teleop/package.xml

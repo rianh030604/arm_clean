@@ -1,0 +1,20 @@
+[ 50%] [32m[1mLinking CXX executable hello_moveit[0m
+[100%] Built target hello_moveit
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/hello_moveit
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_playground
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_playground
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.bash
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.zsh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.dsv
+-- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/ament_index/resource_index/packages/open_manipulator_x_playground
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig.cmake
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig-version.cmake
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.xml

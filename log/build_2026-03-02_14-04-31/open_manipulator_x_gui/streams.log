@@ -1,0 +1,5 @@
+[0.070s] Invoking command in '/home/hoan/colcon_ws/build/open_manipulator_x_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --build /home/hoan/colcon_ws/build/open_manipulator_x_gui -- -j8 -l8
+[0.796s] [ 15%] Built target copy_ui_header
+[1.133s] gmake[2]: *** [CMakeFiles/open_manipulator_x_gui_node_autogen.dir/build.make:86: CMakeFiles/open_manipulator_x_gui_node_autogen.dir/depend] Interrupt
+[1.134s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/open_manipulator_x_gui_node_autogen.dir/all] Interrupt
+[1.134s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,38 @@
+[ 15%] Built target copy_ui_header
+[ 23%] [34m[1mAutomatic MOC and UIC for target open_manipulator_x_gui_node[0m
+[ 23%] Built target open_manipulator_x_gui_node_autogen
+[ 30%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/main.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/open_manipulator_x_gui_node_autogen/mocs_compilation.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/qnode.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/src/main_window.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_main_window.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/open_manipulator_x_gui_node.dir/include/open_manipulator_x_gui/moc_qnode.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable open_manipulator_x_gui_node[0m
+[100%] Built target open_manipulator_x_gui_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/lib/open_manipulator_x_gui/open_manipulator_x_gui_node
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/include/open_manipulator_x_gui/qnode.hpp
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/launch/open_manipulator_x_gui.launch.py
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/ui/main_window.ui
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/config/robot_joint_log.csv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/library_path.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/library_path.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_gui
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_gui
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/path.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/environment/path.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.bash
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.sh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.zsh
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/local_setup.dsv
+-- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/package.dsv
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/ament_index/resource_index/packages/open_manipulator_x_gui
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/open_manipulator_x_guiConfig.cmake
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/cmake/open_manipulator_x_guiConfig-version.cmake
+-- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_gui/share/open_manipulator_x_gui/package.xml

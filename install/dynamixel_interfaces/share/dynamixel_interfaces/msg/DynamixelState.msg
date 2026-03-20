@@ -1,0 +1,1 @@
+/home/hoan/colcon_ws/src/dynamixel_interfaces/msg/DynamixelState.msg

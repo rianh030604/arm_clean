@@ -1,0 +1,215 @@
+[0.069s] Invoking command in '/home/hoan/colcon_ws/build/dynamixel_hardware_interface': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/hoan/colcon_ws/src/dynamixel_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hoan/colcon_ws/install/dynamixel_hardware_interface
+[0.269s] -- The C compiler identification is GNU 11.4.0
+[0.496s] -- The CXX compiler identification is GNU 11.4.0
+[0.518s] -- Detecting C compiler ABI info
+[0.767s] -- Detecting C compiler ABI info - done
+[0.797s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.801s] -- Detecting C compile features
+[0.802s] -- Detecting C compile features - done
+[0.808s] -- Detecting CXX compiler ABI info
+[1.135s] -- Detecting CXX compiler ABI info - done
+[1.160s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.162s] -- Detecting CXX compile features
+[1.163s] -- Detecting CXX compile features - done
+[1.184s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.749s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.099s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.290s] -- Found hardware_interface: 2.53.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.527s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.560s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.609s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.793s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.007s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.026s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.181s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.341s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.351s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.387s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.396s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.416s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[4.441s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.475s] -- Looking for pthread.h
+[4.678s] -- Looking for pthread.h - found
+[4.679s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.870s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.875s] -- Found Threads: TRUE  
+[5.034s] -- Found realtime_tools: 2.15.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[5.079s] -- Found dynamixel_sdk: 4.0.3 (/home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[5.088s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[5.123s] -- Found dynamixel_interfaces: 1.0.1 (/home/hoan/colcon_ws/install/dynamixel_interfaces/share/dynamixel_interfaces/cmake)
+[5.175s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.469s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.489s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.490s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/hoan/colcon_ws/src/dynamixel_hardware_interface/include>
+[5.492s] -- Configured cppcheck exclude dirs and/or files: 
+[5.508s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.508s] -- Configured cpplint exclude dirs and/or files: 
+[5.513s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.522s] -- Added test 'lint_cmake' to check CMake code style
+[5.527s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.546s] -- Added test 'uncrustify' to check C / C++ code style
+[5.546s] -- Configured uncrustify additional arguments: 
+[5.550s] -- Added test 'xmllint' to check XML markup files
+[5.570s] -- Configuring done
+[5.610s] -- Generating done
+[5.628s] -- Build files have been written to: /home/hoan/colcon_ws/build/dynamixel_hardware_interface
+[5.657s] Invoked command in '/home/hoan/colcon_ws/build/dynamixel_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/hoan/colcon_ws/src/dynamixel_hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hoan/colcon_ws/install/dynamixel_hardware_interface
+[5.658s] Invoking command in '/home/hoan/colcon_ws/build/dynamixel_hardware_interface': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hoan/colcon_ws/build/dynamixel_hardware_interface -- -j8 -l8
+[5.777s] [ 25%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel_hardware_interface.cpp.o[0m
+[5.778s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel_info.cpp.o[0m
+[5.796s] [ 75%] [32mBuilding CXX object CMakeFiles/dynamixel_hardware_interface.dir/src/dynamixel/dynamixel.cpp.o[0m
+[20.868s] [100%] [32m[1mLinking CXX shared library libdynamixel_hardware_interface.so[0m
+[21.595s] [100%] Built target dynamixel_hardware_interface
+[21.605s] Invoked command in '/home/hoan/colcon_ws/build/dynamixel_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/hoan/colcon_ws/build/dynamixel_hardware_interface -- -j8 -l8
+[21.606s] Invoking command in '/home/hoan/colcon_ws/build/dynamixel_hardware_interface': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/hoan/colcon_ws/build/dynamixel_hardware_interface
+[21.613s] -- Install configuration: ""
+[21.613s] -- Execute custom install script
+[21.613s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//dynamixel_hardware_interface_plugin.xml
+[21.623s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel.hpp
+[21.632s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel/dynamixel_info.hpp
+[21.640s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/dynamixel_hardware_interface.hpp
+[21.648s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/include/dynamixel_hardware_interface/visibility_control.h
+[21.656s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib/dynamixel_hardware_interface//create_udev_rules
+[21.664s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/99-manipulator-cdc.rules
+[21.672s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/check_model_file_formatting.py
+[21.679s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/cluster_model_files.py
+[21.688s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/create_udev_rules
+[21.696s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/hx_synctable_model_generator.py
+[21.704s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface//scripts/xml_to_model_parser.py
+[21.713s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/2xc430_w250.model
+[21.721s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/2xl430_w250.model
+[21.729s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/dynamixel.model
+[21.737s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g10_led.model
+[21.745s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g10_rcu.model
+[21.753s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_g40_imu.model
+[21.761s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_1.model
+[21.769s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_2.model
+[21.776s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_drive_3.model
+[21.784s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_1.model
+[21.792s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_2.model
+[21.800s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ffw_sg2_steer_3.model
+[21.808s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h42_20_s300_ra.model
+[21.815s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h54_100_s500_ra.model
+[21.824s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/h54_200_s500_ra.model
+[21.832s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_1.model
+[21.840s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_2.model
+[21.848s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_3.model
+[21.856s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_4.model
+[21.864s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_1_device_5.model
+[21.872s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_1.model
+[21.882s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_2.model
+[21.890s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_3.model
+[21.898s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_4.model
+[21.908s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_2_device_5.model
+[21.916s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_1.model
+[21.924s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_2.model
+[21.932s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_3.model
+[21.940s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_4.model
+[21.947s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_3_device_5.model
+[21.955s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_1.model
+[21.963s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_2.model
+[21.971s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_3.model
+[21.978s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_4.model
+[21.986s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_4_device_5.model
+[21.994s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_1.model
+[22.002s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_2.model
+[22.009s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_3.model
+[22.017s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_4.model
+[22.025s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_r_synctable_5_device_5.model
+[22.033s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_rl.model
+[22.040s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/hx5_d20_rr.model
+[22.048s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m42_10_s260_ra.model
+[22.056s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m54_40_s250_ra.model
+[22.064s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/m54_60_s250_ra.model
+[22.072s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_106.model
+[22.080s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_28.model
+[22.088s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/mx_64.model
+[22.096s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_end.model
+[22.103s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_end_rh_p12_rn.model
+[22.111s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/omy_hat.model
+[22.119s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph42_020_s300.model
+[22.127s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph54_100_s500.model
+[22.135s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ph54_200_s500.model
+[22.143s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm42_010_s260.model
+[22.151s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm54_040_s250.model
+[22.160s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/pm54_060_s250.model
+[22.168s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/rh_p12_rn.model
+[22.177s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/sensorxel_joy.model
+[22.185s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m181.model
+[22.192s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m181_fw52.model
+[22.200s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m288.model
+[22.208s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_m288_fw52.model
+[22.216s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t181.model
+[22.224s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t181_fw52.model
+[22.232s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t288.model
+[22.240s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc330_t288_fw52.model
+[22.250s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc335_t332.model
+[22.259s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc430_w150.model
+[22.267s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xc430_w240.model
+[22.275s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd430_t210.model
+[22.283s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd430_t350.model
+[22.291s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd540_t150.model
+[22.299s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xd540_t270.model
+[22.307s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_v210.model
+[22.315s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_v350.model
+[22.324s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_w210.model
+[22.332s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh430_w350.model
+[22.340s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_v150.model
+[22.348s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_v270.model
+[22.356s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_w150.model
+[22.364s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xh540_w270.model
+[22.373s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl320.model
+[22.381s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m077.model
+[22.388s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m077_fw52.model
+[22.396s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m288.model
+[22.404s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl330_m288_fw52.model
+[22.412s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xl430_w250.model
+[22.420s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm430_w210.model
+[22.428s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm430_w350.model
+[22.436s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm540_w150.model
+[22.444s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xm540_w270.model
+[22.452s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw430_t200.model
+[22.459s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw430_t333.model
+[22.469s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_h260.model
+[22.477s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_t140.model
+[22.485s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/xw540_t260.model
+[22.493s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_a051.model
+[22.501s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_a099.model
+[22.509s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_b001.model
+[22.517s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_m001.model
+[22.525s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_r051.model
+[22.533s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym070_210_r099.model
+[22.541s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_a051.model
+[22.549s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_a099.model
+[22.557s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_b001.model
+[22.567s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_m001.model
+[22.575s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_r051.model
+[22.583s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/param/dxl_model/ym080_230_r099.model
+[22.591s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/library_path.sh
+[22.599s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/library_path.dsv
+[22.607s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware_interface
+[22.615s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware_interface
+[22.624s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/ament_prefix_path.sh
+[22.631s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/ament_prefix_path.dsv
+[22.639s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/path.sh
+[22.647s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/environment/path.dsv
+[22.655s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.bash
+[22.662s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.sh
+[22.670s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.zsh
+[22.678s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/local_setup.dsv
+[22.686s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/package.dsv
+[22.696s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/packages/dynamixel_hardware_interface
+[22.704s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware_interface
+[22.713s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.721s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[22.729s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_targets-extras.cmake
+[22.745s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.755s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/dynamixel_hardware_interfaceConfig.cmake
+[22.763s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/dynamixel_hardware_interfaceConfig-version.cmake
+[22.771s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/package.xml
+[22.778s] -- Installing: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib/libdynamixel_hardware_interface.so
+[22.785s] -- Set runtime path of "/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib/libdynamixel_hardware_interface.so" to ""
+[22.785s] -- Installing: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport.cmake
+[22.785s] -- Installing: /home/hoan/colcon_ws/install/dynamixel_hardware_interface/share/dynamixel_hardware_interface/cmake/export_dynamixel_hardware_interfaceExport-noconfig.cmake
+[22.787s] Invoked command in '/home/hoan/colcon_ws/build/dynamixel_hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk:/home/hoan/colcon_ws/install/dynamixel_interfaces:/home/hoan/colcon_ws/install/open_manipulator:/home/hoan/colcon_ws/install/open_manipulator_x_teleop:/home/hoan/colcon_ws/install/open_manipulator_x_playground:/home/hoan/colcon_ws/install/open_manipulator_x_moveit_config:/home/hoan/colcon_ws/install/open_manipulator_x_gui:/home/hoan/colcon_ws/install/open_manipulator_x_bringup:/home/hoan/colcon_ws/install/open_manipulator_x_description:/home/hoan/colcon_ws/install/dynamixel_sdk_examples:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces:/home/hoan/colcon_ws/install/dynamixel_hardware_interface:/home/hoan/ros2_ws/install/astra_camera:/home/hoan/ros2_ws/install/astra_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/hoan/colcon_ws/install/dynamixel_sdk/lib:/home/hoan/colcon_ws/install/dynamixel_interfaces/lib:/home/hoan/colcon_ws/install/open_manipulator_x_gui/lib:/home/hoan/colcon_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/hoan/colcon_ws/install/dynamixel_hardware_interface/lib:/home/hoan/ros2_ws/install/astra_camera/lib:/home/hoan/ros2_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/hoan/colcon_ws/build/dynamixel_hardware_interface

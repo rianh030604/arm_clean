@@ -1,0 +1,204 @@
+[0.034s] Invoking command in '/home/hoan/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --build /home/hoan/colcon_ws/build/dynamixel_sdk -- -j8 -l8
+[0.123s] [  5%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[0.144s] [  5%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[0.145s] [ 11%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[0.145s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[0.145s] [ 22%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[0.146s] [ 27%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[0.146s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[0.163s] [ 33%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[0.178s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[0.950s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[1.417s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[1.651s] [ 55%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[2.549s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[2.692s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[2.762s] running egg_info
+[2.765s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[2.768s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[2.772s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[2.790s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.799s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[2.942s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[2.949s] [ 72%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[3.073s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[3.233s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[3.458s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[3.519s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[5.400s] running egg_info
+[5.406s] writing dynamixel_sdk.egg-info/PKG-INFO
+[5.406s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[5.413s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[5.423s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[5.427s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[5.658s] [ 94%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[8.634s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[9.070s] [100%] Built target dynamixel_sdk
+[9.116s] Invoked command in '/home/hoan/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --build /home/hoan/colcon_ws/build/dynamixel_sdk -- -j8 -l8
+[9.130s] Invoking command in '/home/hoan/colcon_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --install /home/hoan/colcon_ws/build/dynamixel_sdk
+[9.154s] -- Install configuration: ""
+[9.155s] -- Execute custom install script
+[9.156s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[9.158s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[9.159s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[9.159s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[9.159s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[9.159s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[9.159s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[9.159s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[9.159s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[9.161s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[9.161s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[9.161s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[9.161s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[9.162s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[9.162s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[9.162s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[9.162s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[9.163s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[9.163s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[9.163s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[9.163s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[9.167s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[9.167s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[9.167s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[9.167s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[9.168s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[9.169s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[9.169s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[9.169s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[9.169s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[9.169s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[9.169s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[9.169s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[9.170s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[9.170s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[9.170s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[9.170s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[9.170s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[9.174s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[9.174s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[9.175s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[9.175s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[9.176s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[9.176s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[9.177s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[9.177s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[9.177s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[9.177s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[9.177s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[9.177s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[9.180s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[9.181s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[9.181s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[9.182s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[9.182s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[9.182s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[9.184s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[9.184s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[9.184s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[9.185s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[9.185s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[9.185s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[9.186s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[9.186s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[9.187s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[9.189s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[9.189s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[9.190s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[9.190s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[9.190s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[9.190s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[9.190s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[9.190s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[9.191s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[9.191s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[9.191s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[9.192s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[9.192s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[9.192s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[9.193s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[9.193s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[9.193s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[9.193s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[9.193s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[9.193s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[9.193s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[9.193s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[9.193s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[9.194s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[9.194s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[9.194s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[9.194s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[9.194s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[9.194s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/PKG-INFO
+[9.197s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/SOURCES.txt
+[9.197s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/dependency_links.txt
+[9.198s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk-4.0.3-py3.10.egg-info/top_level.txt
+[9.198s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/__init__.py
+[9.198s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.cpp
+[9.198s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_read.py
+[9.198s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.cpp
+[9.199s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_bulk_write.py
+[9.201s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[9.202s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[9.202s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_handler.cpp
+[9.202s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.cpp
+[9.202s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_read.py
+[9.202s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.cpp
+[9.202s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/group_sync_write.py
+[9.203s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.cpp
+[9.214s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/packet_handler.py
+[9.215s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.cpp
+[9.215s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler.py
+[9.215s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_arduino.cpp
+[9.215s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_linux.cpp
+[9.215s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_mac.cpp
+[9.215s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/port_handler_windows.cpp
+[9.216s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[9.217s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol1_packet_handler.py
+[9.221s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[9.221s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/protocol2_packet_handler.py
+[9.221s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk/robotis_def.py
+[9.221s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/PKG-INFO
+[9.221s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/SOURCES.txt
+[9.221s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/dependency_links.txt
+[9.221s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk-4.0.3-py3.10.egg-info/top_level.txt
+[9.222s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/__init__.py
+[9.222s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.cpp
+[9.222s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/connector.py
+[9.222s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.cpp
+[9.222s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/control_table.py
+[9.222s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/data_types.py
+[9.222s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[9.223s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/dynamixel_error.py
+[9.223s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.cpp
+[9.223s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/group_executor.py
+[9.223s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.cpp
+[9.223s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk/motor.py
+[9.224s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[9.224s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[9.224s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[9.224s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[9.225s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[9.227s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[9.227s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[9.227s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[9.227s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[9.227s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[9.227s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[9.227s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[9.228s] -- Symlinking: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[9.268s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[9.271s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[9.272s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.272s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[9.272s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[9.272s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[9.272s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[9.272s] -- Installing: /home/hoan/colcon_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[9.386s] Listing '/home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_sdk'...
+[9.530s] Listing '/home/hoan/colcon_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages/dynamixel_easy_sdk'...
+[9.559s] -- Up-to-date: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[9.562s] -- Up-to-date: /home/hoan/colcon_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[9.568s] Invoked command in '/home/hoan/colcon_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --install /home/hoan/colcon_ws/build/dynamixel_sdk

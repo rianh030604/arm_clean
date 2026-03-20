@@ -1,0 +1,1 @@
+/home/hoan/colcon_ws/build/dynamixel_interfaces/ament_cmake_environment_hooks/local_setup.sh

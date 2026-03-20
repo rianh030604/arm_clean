@@ -1,0 +1,1 @@
+/home/hoan/colcon_ws/build/dynamixel_interfaces/rosidl_generator_py/dynamixel_interfaces/msg/_dynamixel_state.py

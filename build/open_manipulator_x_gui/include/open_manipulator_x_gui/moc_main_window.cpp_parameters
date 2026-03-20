@@ -1,0 +1,5 @@
+-I/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui
+-I/home/hoan/colcon_ws/build/open_manipulator_x_gui
+-o
+/home/hoan/colcon_ws/build/open_manipulator_x_gui/include/open_manipulator_x_gui/moc_main_window.cpp
+/home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_gui/include/open_manipulator_x_gui/main_window.hpp

@@ -1,0 +1,1 @@
+/home/hoan/colcon_ws/src/DynamixelSDK/ros/dynamixel_sdk/src/dynamixel_sdk/group_bulk_write.py

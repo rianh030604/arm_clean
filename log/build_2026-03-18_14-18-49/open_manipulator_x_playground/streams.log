@@ -1,0 +1,25 @@
+[0.037s] Invoking command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --build /home/hoan/colcon_ws/build/open_manipulator_x_playground -- -j8 -l8
+[0.220s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[23.209s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[25.084s] [100%] Built target hello_moveit
+[25.144s] Invoked command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --build /home/hoan/colcon_ws/build/open_manipulator_x_playground -- -j8 -l8
+[25.157s] Invoking command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --install /home/hoan/colcon_ws/build/open_manipulator_x_playground
+[25.192s] -- Install configuration: ""
+[25.192s] -- Execute custom install script
+[25.198s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/hello_moveit
+[25.199s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_playground
+[25.201s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_playground
+[25.201s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.sh
+[25.201s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.dsv
+[25.202s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.sh
+[25.202s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.dsv
+[25.202s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.bash
+[25.203s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.sh
+[25.205s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.zsh
+[25.207s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.dsv
+[25.207s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.dsv
+[25.250s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/ament_index/resource_index/packages/open_manipulator_x_playground
+[25.254s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig.cmake
+[25.255s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig-version.cmake
+[25.255s] -- Up-to-date symlink: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.xml
+[25.263s] Invoked command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hoan/ros2_ws/install/camera_onnx_processor:/opt/ros/humble /usr/bin/cmake --install /home/hoan/colcon_ws/build/open_manipulator_x_playground

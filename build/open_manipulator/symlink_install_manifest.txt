@@ -1,0 +1,15 @@
+/home/hoan/colcon_ws/install/open_manipulator/share/ament_index/resource_index/package_run_dependencies/open_manipulator
+/home/hoan/colcon_ws/install/open_manipulator/share/ament_index/resource_index/parent_prefix_path/open_manipulator
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/environment/ament_prefix_path.sh
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/environment/ament_prefix_path.dsv
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/environment/path.sh
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/environment/path.dsv
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/local_setup.bash
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/local_setup.sh
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/local_setup.zsh
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/local_setup.dsv
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/package.dsv
+/home/hoan/colcon_ws/install/open_manipulator/share/ament_index/resource_index/packages/open_manipulator
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/cmake/open_manipulatorConfig.cmake
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/cmake/open_manipulatorConfig-version.cmake
+/home/hoan/colcon_ws/install/open_manipulator/share/open_manipulator/package.xml

@@ -1,0 +1,68 @@
+[0.023s] Invoking command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_playground -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hoan/colcon_ws/install/open_manipulator_x_playground
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.186s] -- The CXX compiler identification is GNU 11.4.0
+[0.194s] -- Detecting C compiler ABI info
+[0.290s] -- Detecting C compiler ABI info - done
+[0.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.302s] -- Detecting C compile features
+[0.302s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.433s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.632s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.731s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.762s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.973s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.024s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.030s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.040s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.402s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.497s] -- Found parameter_traits: 0.6.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.575s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.580s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.817s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.905s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.055s] -- Found Threads: TRUE  
+[2.173s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.276s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.586s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.709s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.709s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.059s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.117s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.162s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[3.480s] -- Configuring done
+[3.547s] -- Generating done
+[3.568s] -- Build files have been written to: /home/hoan/colcon_ws/build/open_manipulator_x_playground
+[3.612s] Invoked command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hoan/colcon_ws/src/open_manipulator/open_manipulator_x_playground -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hoan/colcon_ws/install/open_manipulator_x_playground
+[3.613s] Invoking command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoan/colcon_ws/build/open_manipulator_x_playground -- -j8 -l8
+[3.802s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[26.266s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[27.282s] [100%] Built target hello_moveit
+[27.321s] Invoked command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hoan/colcon_ws/build/open_manipulator_x_playground -- -j8 -l8
+[27.322s] Invoking command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoan/colcon_ws/build/open_manipulator_x_playground
+[27.340s] -- Install configuration: ""
+[27.341s] -- Execute custom install script
+[27.341s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/lib/open_manipulator_x_playground/hello_moveit
+[27.364s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/ament_index/resource_index/package_run_dependencies/open_manipulator_x_playground
+[27.390s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/ament_index/resource_index/parent_prefix_path/open_manipulator_x_playground
+[27.410s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.sh
+[27.435s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/ament_prefix_path.dsv
+[27.459s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.sh
+[27.484s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/environment/path.dsv
+[27.502s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.bash
+[27.516s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.sh
+[27.531s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.zsh
+[27.553s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/local_setup.dsv
+[27.590s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.dsv
+[27.614s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/ament_index/resource_index/packages/open_manipulator_x_playground
+[27.635s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig.cmake
+[27.656s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/cmake/open_manipulator_x_playgroundConfig-version.cmake
+[27.678s] -- Symlinking: /home/hoan/colcon_ws/install/open_manipulator_x_playground/share/open_manipulator_x_playground/package.xml
+[27.704s] Invoked command in '/home/hoan/colcon_ws/build/open_manipulator_x_playground' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hoan/colcon_ws/build/open_manipulator_x_playground

@@ -1,0 +1,10 @@
+gmake[1]: *** [CMakeFiles/Makefile2:246: CMakeFiles/ament_cmake_python_build_dynamixel_easy_sdk_egg.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:75: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:145: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:103: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:131: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:89: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/dynamixel_sdk.dir/build.make:117: CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/ament_cmake_python_symlink_dynamixel_sdk.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/dynamixel_sdk.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
