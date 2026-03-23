@@ -33,10 +33,9 @@ TRUNGGIAN_POINT_DOWN = {
 
 
 POINTS = [
-    None,
     {
-        "x": 0.222, "y": -0.237, "z": 0.07,
-        "qx": -0.268, "qy": 0.671, "qz": -0.285, "qw": 0.630,
+        "x": 0.104, "y": -0.168, "z": 0.507,
+        "qx": 0.238, "qy": -0.321, "qz": 0.913, "qw": -0.084,
         "order": [[1, 2, 3, 4], ["open"]],
     },
     None,  
@@ -242,34 +241,24 @@ class ArmPubPoints(Node):
         except:
             return None
     def check_q_target(self):
-        q = self.get_tf_q()
-        if q is None:
+        q_current = self.get_tf_q()
+        if q_current is None:
             return True
 
-        x, y, z, w = q
+        pt = POINTS[self.point_idx]
+        q_target = [pt['qx'], pt['qy'], pt['qz'], pt['qw']]
 
-        # 👉 trục Z của tool trong world
-        z_axis = [
-            2 * (x * z + y * w),
-            2 * (y * z - x * w),
-            1 - 2 * (x * x + y * y)
-        ]
+        dot = sum(q_target[i] * q_current[i] for i in range(4))
 
-        # 👉 target: tool phải chúc xuống
-        target_dir = [0, 0, -1]
+        self.get_logger().info(f"Q dot target = {dot:.3f}")
 
-        dot = sum(z_axis[i] * target_dir[i] for i in range(3))
-
-        self.get_logger().info(f"[CHECK_Q] Z align = {dot:.3f}")
-
-        # 👉 nếu tool bị ngược
-        if dot < 0 and not self.flip_done:
-            self.get_logger().warn("Tool bị ngược → flip j1")
+        if dot < 0.7 and not self.flip_done:
+            self.get_logger().warn(f"Sai orientation (dot={dot:.3f}) → thử flip j1")
             self.flip_j1()
             self.flip_done = True
             return False
 
-        return True
+        return True   # ← THIẾU CÁI NÀY
     # ───────────── CHECK TOOL DIRECTION ─────────────
     def check_direction(self):
         q = self.get_tf_q()
@@ -395,6 +384,7 @@ class ArmPubPoints(Node):
         self.pub.publish(String(data=json.dumps(goal)))
         self.target_step = target
         self.state = 'wait_arrive'
+
     # ───────────── IK ─────────────
     def compute_ik(self):
         pt = POINTS[self.point_idx]
@@ -469,7 +459,7 @@ class ArmPubPoints(Node):
             self.state = 'wait_gripper'
             return
         if group == ["check_dir"]:
-            if not self.check_():
+            if not self.check_q_target():
                 return
 
             self.step_idx += 1
